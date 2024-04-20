@@ -1,0 +1,22 @@
+@import url("styles/reset.css");
+@import url("styles/header.css");
+@import url("styles/profile.css");
+@import url("styles/about.css");
+
+body {
+    background: url(assets/stard.jpg) no-repeat center center fixed ;
+    background-size: cover;
+    /* background-color: rgb(13, 13, 46); */
+    /* para el interlineado */
+    line-height: 1.3;
+    font-family: "Quicksand", sans-serif;
+    color: aliceblue;
+    /* para desaparecer el scroll */
+    overflow-x: hidden; 
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

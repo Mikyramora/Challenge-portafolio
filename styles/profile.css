@@ -1,0 +1,77 @@
+
+.title__profile{
+    display: flex;
+    justify-content: left;
+    height: 35%;
+    width: 35%;
+    padding: 25px 20px;
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    /* text-wrap: balance; este alinea y balancea el texto , especializado en contenedores que van a cambiar de tamaño */
+    padding: 0px 15px 20px 15px;
+    text-align: left;
+    font-size: 14px;
+    gap: 20px;
+    background-color: rgb(13, 13, 46);
+    opacity: 70%;
+}
+
+.title__bio {
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.title__network {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* .title__network__item::before {
+    content: "★";
+    color: aliceblue;
+} para poner una estrella antes de las letras*/
+
+@media (min-width:768px){
+   .title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+   }
+
+   .title__container {
+    display: flex;
+    font-size: 1.1em;
+    justify-content: space-around;
+    height: 20%;
+    padding: 30px;
+   }
+
+}
+
+@media (min-width:1040px){
+
+    .title__div {
+        padding: 0 47px 0 47px;
+        justify-content: space-around;
+    }
+
+    .title__profile {
+        height: 25%;
+        width: 25%;
+    }
+
+    .title__container {
+        font-size: 1.2em;
+        margin: 15px 0 0 0;
+    }
+
+
+
+}

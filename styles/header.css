@@ -1,0 +1,61 @@
+header {
+    height: 60px;
+    padding: 15px 15px;
+    display: flex;
+    justify-content: right;
+}
+
+/* en esta seccion va el nombre y el logo, pero le quite las estrellitas */
+/* .nombre {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 50px;
+    font-weight: 800;
+} */
+
+/* .logo-estrellas{
+    height: 22px;
+} en esta parte iria el tamaño de la imagen*/
+
+
+.menu__list{
+    display: none;
+}
+
+.menu_list_item_contacto{
+    font-weight: bold;
+    font-size: .85em;
+}
+
+.menu__list li a {
+    color: aliceblue
+}
+
+@media (min-width: 1024px) {
+    header{
+        padding: 20px 80px;
+
+    }
+
+    /* .logo {
+        font-size: 16px;
+    } es la estrellita otra vez */
+
+    .menu__list {
+        display: flex;
+        flex-direction: row;
+        /* font-size: 1.1em; */
+        gap: 20px;
+    }
+
+    .menu_list_item_contacto {
+        display: none;
+    }
+
+    .menu__list li b {
+        font-weight: bold;
+    }
+}
+
+
