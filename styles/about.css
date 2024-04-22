@@ -1,0 +1,38 @@
+
+.about__container{
+    background-color: #264b79;
+    opacity: 80%;
+    font-size: 14px;
+    text-align: left;
+    padding: 20px 15px 20px 15px;
+    justify-content: space-between;
+    line-height: 1.2;
+}
+
+.about__title {
+    font-size: 1.3em;
+    font-weight: 700;
+    padding: 0 0 15px 0;
+}
+
+.about__paragraph{
+    gap: 10px;
+}
+
+@media (min-width:768px){
+    .about__container{
+        gap: 30px;
+        text-align: justify;
+        padding: 30px;
+        font-size: 1.1em;
+    }
+}
+
+
+@media (min-width:1040px){
+    .about__container{
+        margin: 0 67px 0 48px;
+        padding: 40px 30px 40px 30px;
+        font-size: 1.2em;
+    }
+}

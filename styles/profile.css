@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     /* text-wrap: balance; este alinea y balancea el texto , especializado en contenedores que van a cambiar de tamaño */
-    padding: 0px 15px 20px 15px;
+    padding: 20px 15px 20px 15px;
     text-align: left;
     font-size: 14px;
     gap: 20px;
