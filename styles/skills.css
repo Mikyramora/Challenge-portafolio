@@ -1,0 +1,27 @@
+.skills {
+    width: 100vw;
+    height: 30vh;
+    font-size: 14px;
+    background-color: rgb(13, 13, 46);
+    opacity: 70%;
+}
+
+.skills__title {
+    font-size: 1.3em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skills__name{
+    font-weight: 700;
+}
+    
+.skills__box ul {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    align-self: center;
+    flex-flow: column wrap;
+    flex-grow: 1;
+}

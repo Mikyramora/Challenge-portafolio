@@ -2,6 +2,9 @@
 @import url("styles/header.css");
 @import url("styles/profile.css");
 @import url("styles/about.css");
+@import url("styles/skills.css");
+@import url("styles/educacion.css");
+
 
 body {
     background: url(assets/stard.jpg) no-repeat center center fixed ;

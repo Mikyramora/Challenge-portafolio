@@ -36,3 +36,9 @@
         font-size: 1.2em;
     }
 }
+
+@media (min-width:1420px){
+    .about__container{
+        font-size: 1.4em;
+    }
+}

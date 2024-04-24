@@ -1,3 +1,10 @@
+/* .title{
+    display: flex;
+    width: 94vw;
+
+
+} */
+
 
 .title__profile{
     display: flex;
@@ -5,10 +12,12 @@
     height: 35%;
     width: 35%;
     padding: 25px 20px;
+    /* max-width: 100%; */
 }
 
 .title__container {
     display: flex;
+    
     flex-direction: column;
     /* text-wrap: balance; este alinea y balancea el texto , especializado en contenedores que van a cambiar de tamaño */
     padding: 20px 15px 20px 15px;
@@ -43,13 +52,14 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    align-items: center;
    }
 
    .title__container {
     display: flex;
     font-size: 1.1em;
     justify-content: space-around;
-    height: 20%;
+    /* height: 20%; */
     padding: 30px;
    }
 
@@ -60,6 +70,7 @@
     .title__div {
         padding: 0 47px 0 47px;
         justify-content: space-around;
+        margin: 15px 0 0 0;
     }
 
     .title__profile {
@@ -69,9 +80,20 @@
 
     .title__container {
         font-size: 1.2em;
-        margin: 15px 0 0 0;
+        /* margin: 15px 0 0 0; */
+    }
+}
+
+@media (min-width:1420px){
+    .title__container{
+        display: flex;
+        width: 85vw;
+        height: 30vh;
+        font-size: 1.5em;
     }
 
-
-
+    .title__network{
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
