@@ -3,7 +3,13 @@
 @import url("styles/profile.css");
 @import url("styles/about.css");
 @import url("styles/skills.css");
+@import url("styles/softskills.css");
 @import url("styles/educacion.css");
+@import url("styles/experiencia.css");
+@import url("styles/hobbies.css");
+@import url("styles/contacto.css");
+@import url("styles/footer.css");
+
 
 
 body {
