@@ -2,17 +2,16 @@
     background-color: #264b79;
     opacity: 80%;
     font-size: 16px;
-    text-align: left;
+    /* text-align: left; */
     /* width: 100vw;
     padding: 20px 15px 20px 15px;
     justify-content: center;
     line-height: 1.2;
     flex-direction: column; */
 }
-
 .formcontato--esquerda{
     display: flex;
-    justify-content: center;
+    justify-content: center     ;
 }
 
 .formcontato__img{
@@ -20,15 +19,26 @@
     align-items: center; */
     height: 35%;
     width: 35%;
-    /* padding: 25px 20px; */
+    padding: 20px 0 10px 0;
 }
 
 .formcontato__text{
-    background-color: brown;
-    width: 100vw;
-    display: flex;
-    flex-flow: column wrap;
-    text-align: center;
+    width: 100%;
+    padding: 15px 25px 20px 60px;
+    justify-content: center;
+    line-height: 1.2;
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
     align-self: auto;
-    padding: 30px;
+    padding: 15px 30px 15px 40px;
+    margin: 0px 0 15px 0; */
+}
+
+.formcontato__title{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
 }
