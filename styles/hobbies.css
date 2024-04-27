@@ -54,11 +54,11 @@
 @media (min-width:1040px){
     .hobbies{
         width: 90vw;
-        font-size: 1.2em;
+        padding-bottom: 88px;
     }
 
     .hobbies__img{
-        width: 21vw;
+        width: 10vw;
     }
 
 }
@@ -66,10 +66,9 @@
 @media (min-width:1420px){
    .hobbies{
         width: 94vw;
-        font-size: 1.4em;
     }
 
    .hobbies__img{
-        width: 22vw;
+        width: 12vw;
     }
 }

@@ -54,11 +54,11 @@
 @media (min-width:1040px){
     .soft{
         width: 90vw;
-        font-size: 1.2em;
+        padding-bottom: 88px;
     }
 
     .soft__img{
-        width: 21vw;
+        width: 10vw;
     }
 
 }
@@ -66,10 +66,9 @@
 @media (min-width:1420px){
    .soft{
         width: 94vw;
-        font-size: 1.4em;
     }
 
    .soft__img{
-        width: 22vw;
+        width: 12vw;
     }
 }
