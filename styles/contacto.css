@@ -11,7 +11,11 @@
 }
 .formcontato--esquerda{
     display: flex;
-    justify-content: center     ;
+    justify-content: center;
+}
+
+.formcontato--esquerda{
+    display: none;
 }
 
 .formcontato__img{

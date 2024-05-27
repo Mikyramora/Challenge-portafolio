@@ -31,7 +31,7 @@
 
 .skills__img{
     margin-bottom: 10px;
-    width: 30vw;
+    width: 20vw;
 }
 
 
@@ -55,6 +55,7 @@
     .skills{
         width: 90vw;
         font-size: 1.2em;
+        padding-bottom: 88px;
     }
     .skills__img{
         width: 10vw;
