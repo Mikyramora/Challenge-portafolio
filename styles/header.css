@@ -32,6 +32,12 @@ header {
     color: aliceblue
 }
 
+@media (min-width:768px){
+    .menu_list_item_contacto{
+        font-size: 17px;
+    }
+}
+
 @media (min-width: 1024px) {
     header{
         padding: 20px 80px;

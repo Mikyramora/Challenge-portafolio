@@ -1,12 +1,13 @@
 .academic{
-    font-size: 14px;
+    font-size: 16px;
     background-color: #264b79;
     opacity: 80%;
     width: 100vw;
+    padding: 0 0 10px 0;
 }
 
 .academic__title {
-    font-size: 1.3em;
+    font-size: 22px;
     font-weight: 700;
     text-align: center;
     padding: 25px 0 10px 0;
@@ -35,12 +36,16 @@
 
 .academic__courses__item__title{
     font-weight: 700;
-    font-size: 1.1em;
+    /* font-size: 1.1em; */
 }
 
 @media (min-width:768px){
+    .academic{
+        font-size: .89em;
+    }
+
     .academic__courses{
-        font-size: 1.1em;
+        /* font-size: 1.1em; */
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -49,8 +54,9 @@
     }
 
     .academic__title{
+        font-size: 24px;
         margin-top: 10px;
-        font-size: 1.7em;
+        /* font-size: 1.7em; */
     }
 
     .academic__courses__item__img{
@@ -59,9 +65,9 @@
         width: 25vw;
     }
 
-    .academic__courses__item__title{
-        font-size: 1.2em;
-    }
+    /* .academic__courses__item__title{
+        /* font-size: 1.2em; */
+    
 
     .academic__courses__item__subtitle{
         margin-bottom: 20px;
@@ -71,15 +77,16 @@
 @media (min-width:1040px){
     .academic{
         width: 90vw;
+        font-size: .75em;
     }
     
-    .academic__courses{
+    /* .academic__courses{
         font-size: 1.3em;
     }
 
     .academic__title{
         font-size: 1.9em;
-    }
+    } */
 
 }
 
