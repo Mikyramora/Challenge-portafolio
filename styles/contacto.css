@@ -57,3 +57,19 @@
         font-size: 25px;
     }
 }
+
+@media (min-width:1040px){
+    .formcontato{
+        width: 90vw;
+        padding-bottom: 35px;
+    }
+
+    .formcontato__title{
+        font-size: 28px;
+    }
+
+    .formcontato__contacto{
+        font-size: 1.5em;
+    }
+
+}

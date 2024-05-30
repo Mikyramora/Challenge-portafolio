@@ -63,11 +63,17 @@
 @media (min-width:1040px){
     .hobbies{
         width: 90vw;
-        padding-bottom: 88px;
+        padding-bottom: 30px;
+        font-size: 1.3em;
+    }
+
+    .hobbies__title{
+        margin-top: 10px;
+        font-size: 28px;
     }
 
     .hobbies__img{
-        width: 10vw;
+        width: 16vw;
     }
 
 }

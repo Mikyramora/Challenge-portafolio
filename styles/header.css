@@ -53,12 +53,12 @@ header {
         flex-direction: row;
         /* font-size: 1.1em; */
         gap: 20px;
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .menu_list_item_contacto {
         display: none;
-        font-size: 18px;
+        font-size: 19px;
     }
 
     .menu__list li b {
