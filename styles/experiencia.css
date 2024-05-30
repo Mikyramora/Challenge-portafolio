@@ -11,7 +11,7 @@
     font-size: 22px;
     font-weight: 700;
     text-align: center;
-    padding: 25px 0 10px 0;
+    padding: 30px 0 10px 0;
 }
 
 .experiencie__box{
@@ -84,7 +84,33 @@
     }
 
     .experience__section__title{
-        font-size: 24px;
+        font-size: 25px;
+    }
+
+    .experience__title{
+        font-size: 1em;
+    }
+
+    .experience__info{
+        font-size: 1.2em;
+    }
+
+    
+    .experiencia__botao--repo{
+        padding: 1rem;
+        width: 10rem;
+
+    }
+
+    .experience__botao--demo{
+        padding: 1rem;
+        width: 10rem;
+    }
+
+    .experience__img{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 75vw;
     }
     
     .academic__courses{

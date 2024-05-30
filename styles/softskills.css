@@ -41,7 +41,7 @@
     }
 
     .soft__title{
-        font-size: 24px;
+        font-size: 25px;
     }
 
     .soft__img{
@@ -62,12 +62,21 @@
 @media (min-width:1040px){
     .soft{
         width: 90vw;
-        padding-bottom: 88px;
+        padding-bottom: 40px;
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .soft__title{
+        font-size: 28px;
+        padding-bottom: 30px;
     }
 
     .soft__img{
-        width: 10vw;
-    }
+        width: 16vw;
+    } 
+
 
 }
 

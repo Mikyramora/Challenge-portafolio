@@ -46,7 +46,7 @@
 
     .skills__title{
         margin-top: 10px;
-        font-size: 24px;
+        font-size: 25px;
     }
 
     /* .skills__box{
@@ -62,8 +62,14 @@
     .skills{
         width: 90vw;
         font-size: 1.2em;
-        padding-bottom: 88px;
+        padding-bottom: 40px;
     }
+
+    .skills__title{
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+
     .skills__img{
         width: 10vw;
     }
