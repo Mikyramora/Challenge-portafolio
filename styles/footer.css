@@ -14,3 +14,9 @@ footer {
         font-size: 21px;
     }   
 }
+
+@media (min-width:1420px){
+    .footer__rodapie{
+        font-size: 22px;
+    }
+}
