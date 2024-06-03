@@ -81,4 +81,8 @@
         width: 94vw;
         font-size: 1.4em;
    }
+
+   .skills__title{
+    font-size: 34px;
+   }
 }
