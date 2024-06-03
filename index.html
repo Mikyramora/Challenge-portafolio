@@ -259,26 +259,57 @@
         </section>
 
             <!-- Sección de Contacto -->
-            <section class="formcontato" id="contacto">
-                <div  class="formcontato__contacto">
-                    <div class="formcontato--esquerda">
-                        <img class="formcontato__img" src="assets/comunicar.png">
-                    </div>
-                    <div class="formcontato__text">
-                        <h2 class="formcontato__title">Contacto</h2>
-                        <h3 class="formcontato__subtext">Para más información, por favor llene el formulario y será contactado en breve</h3>
-                    </div>
-                    
-                        <form class="formcontato__form" name="form">
-                            <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                            <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                            <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                            <button type="submit" class="formcontato__botao">Enviar mensaje</button>
-                        </form>
-                    
+        <section class="formulario">
+            <div class="formcontato_esquerda">
+                <img class="formcontato__img" src="assets/comunicar.png">
+            </div>
+            <div class="formulario__container">
+                <h2 class="formulario__titulo-texto">Contacto</h2>
+                <h3 class="formulario__subtext">Para más información, por favor llene el siguiente formulario y será contactado en breve</h3>
+            
+    <!-- INICIO DE FORMULARIO -->
+                <form class="principal__formulario" data-formulario>
+                    <fieldset class="formulario__campo">
+                        <label class="campo__etiqueta" for="nombre">Nombre</label>
+                        <input name="nombre" id="nombre" class="campo__completo" type="text" placeholder="XXXX XXXX XXXX" minlength="3" required/>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+        
+                    <fieldset class="formulario__campo">
+                        <label class="campo__etiqueta" for="email">E-mail</label>
+                        <input name="email" id="email" class="campo__completo" type="email" placeholder="xxxx@xxxx.com" minlength="5" required/>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+
+                    <fieldset class="formulario__campo">
+                        <label class="campo__etiqueta" for="text">Asunto</label>
+                        <input name="input" id="input" class="campo__completo" type="text" placeholder="XXXXXX" minlength="5" required/>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+                    <!-- <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto"> -->
+                    <fieldset class="formulario__campo">
+                        <!-- <label class="campo__text" for="textarea">Mensaje</label> -->
+                        <textarea class="campo__etiqueta" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Escriba su mensaje" minlength="5" required></textarea>
+                        <!-- <input name="textmensaje" id="textmensaje" class="campo__txarea" type="text" minlength="5" required/> -->
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+                    <!-- <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea> -->
+                    <fieldset class="formulario__terminos">
+                        <input name="terminos" class="terminos__input" type="checkbox" required/>
+                        <p class="terminos__texto">
+                        He leído y conozco las condiciones para el tratamiento de mis
+                        datos descrito en las <a href="#">Políticas de Privacidad</a>.
+                        </p>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+        
+                <div>
+                    <input value="Enviar" class="formulario__boton" id="enviar" data-boton-enviar type="submit"/>
+                    <span class="mensaje-error"></span>
                 </div>
-            </section>
+                </form>
+            </div>
+        </section>
     </main>
         <!-- Sección de Footer -->
 
