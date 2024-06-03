@@ -91,6 +91,10 @@
         height: 30vh;
         font-size: 1.5em;
     }
+    
+    .title__bio{
+        font-size: 52px;
+    }
 
     .title__network{
         display: flex;
