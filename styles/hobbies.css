@@ -83,6 +83,10 @@
         width: 94vw;
     }
 
+    .hobbies__title{
+        font-size: 34px;
+    }
+
    .hobbies__img{
         width: 12vw;
     }
