@@ -42,4 +42,8 @@
         width: 94vw;
         font-size: 1.4em;
     }
+
+    .about__title{
+        font-size: 34px;
+    }
 }
