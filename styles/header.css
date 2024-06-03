@@ -68,7 +68,8 @@ header {
 
 @media (min-width:1420px){
    .menu__list{
-    font-size: 1.3em;
+    margin-top: 25px;
+    font-size: 1.4em;
    }
         
         
