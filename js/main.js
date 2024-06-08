@@ -1,10 +1,10 @@
 import {tiposDeError, mensajes, customErrors} from "./errores.js";
 
 
-const botonEnviar= document.querySelector("[data-boton-enviar]")
+const botonEnviar= document.querySelector("[data-boton-enviar]");
 
 const camposDeFormulario = document.querySelectorAll ("[required]");
-const formulario= document.querySelector("[data-formulario]")
+const formulario= document.querySelector("[data-formulario]");
 formulario.addEventListener("submit", (e)=>{
     e.preventDefault();
     const listaRespuestas = {
@@ -15,13 +15,13 @@ formulario.addEventListener("submit", (e)=>{
 }
     localStorage.setItem("registro", JSON.stringify(listaRespuestas))
 
-})
+});
 
 camposDeFormulario.forEach ((campo) => {
 
-campo.addEventListener("blur", () => verificarCampo(campo))
-
-campo.addEventListener("invalid", evento => evento.preventDefault())
+campo.addEventListener("blur", () => verificarCampo(campo));
+campo.addEventListener("input", () => verificarFormulario());
+campo.addEventListener("invalid", evento => evento.preventDefault());
 
 });
 
@@ -51,13 +51,22 @@ function verificarCampo (campo){
     }else{
         mensajeError.textContent = ""
     }
-}
+};
+
+function verificarFormulario() {
+    let formularioValido = true;
+    camposDeFormulario.forEach((campo) => {
+      if (!campo.checkValidity()) {
+        formularioValido = false;
+      }
+    });
+    botonEnviar.disabled = !formularioValido;
+};
 
     botonEnviar.addEventListener("click", () =>{
         const recibirDatos= localStorage.getItem("registro");
         const convertirDatos= JSON.parse(recibirDatos);
 
-        // convertirDatos.img_url= imgUrl;
         localStorage.setItem("registro", JSON.stringify(convertirDatos));
 
         window.location.href= "./index.html";

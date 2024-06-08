@@ -4,9 +4,6 @@
     opacity: 70%;
     width: 100vw;
     padding: 30px 15px 10px 30px;
-    
-    /* margin: 3em auto;
-    width: 30vw; */
 }
 
 .formcontato_esquerda{
@@ -30,10 +27,6 @@
     margin-bottom: 1em;
 }
 
-/* .campo__etiqueta {
-    font-weight: 500;
-    line-height: 20px;
-} */
 
 .campo__completo {
     /* display: block; */
@@ -42,7 +35,6 @@
     padding: 1em;
     margin-top: .5em;
     color: black;
-    /* justify-content: center; */
 
 }
 
@@ -55,7 +47,7 @@
 
 
 .terminos__texto {
-    line-height: 20px;
+    line-height: 10px;
     display: inline;
 }
 
@@ -63,53 +55,34 @@
     background: #264b79;
     margin: 1em auto;
     display: block;
-    border: none;
+    border: 2px solid rgb(247, 243, 247);
     padding: 1em 4em;
     border-radius: 30px;
     font-weight: 900;
     font-size: 20px;
+    letter-spacing: 1px;
     line-height: 22px;
     color:  aliceblue;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #4b56d3;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
 }
 
-
-.formulario__boton--enlace {
-    text-decoration: none;
-    width: 50%;
-}
-
-.formulario__texto {
-    margin: 1em 8em;
-}
-
-.formulario__texto--negrito {
-    font-weight: 700;
-}
-
-.formulario__texto-secundario {
-    margin: 2em 6em;
-}
+.slide_right:hover {
+    box-shadow: inset 400px 0 0 0 #4b56d3;
+  }
 
 .mensaje-error {
     display: block;
     margin-top: 5px;
-    font-weight: 400;
+    font-weight: 500;
     font-style: italic;
-    font-size: .925rem;
-    color: red;
+    font-size: 1rem;
+    color: whitesmoke;
 }
 
-.campo__completo--error {
-    border: 2px solid red;
-}
-
-.formulario__mensaje {
-    display: none;
-}
-
-.formulario__mensaje--exito{
-    display: block;
-}
 
 @media (min-width:768px){
     .formulario{
@@ -199,20 +172,3 @@
         padding: 0 20px;
     }
 }
-/*@media screen and (max-width: 900px) {
-    .formulario {
-        width: 70%;
-    }
-
-    .formulario__etapas {
-        width: 100%;
-    }
-
-    .formulario__texto {
-        margin: 0;
-    }
-
-    .container {
-        margin: 2em;
-    }
-} */
