@@ -1,4 +1,6 @@
-import {tiposDeError, mensajes, customErrors} from "../js/errores.js";
+import {tiposDeError, mensajes, customErrors} from "/js/errores.js";
+
+console.log(location.href);
 
 
 const botonEnviar= document.querySelector("[data-boton-enviar]");
